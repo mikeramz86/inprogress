@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: gt8TaFAJWTLIdu40fzodXJTKUxBd/OtPt7f+MnAGjaZdnO2Ifzerj+nIeRdwPcYL4MxGJm5uoQgxYs/TemJEIqIPohQk8GrM5cFgaJleUZYzTS+eJTP/CtDQD7ihGbSwM1vzb/aVkxjphnYo2Vs/5AuqnO5vCalxh7TZ4LefANXTKX3vzVQVqGVwAbUo4qCAJ9CmXuUc2s2+gy4EHiXgeSrVSFDIUVF2WTiFBbl7F4IJh1krUV98Hm1oVizmDIRz8zHldMKo+CHpIK9VSCoD0+7T/HJqcXwIz+gX3/8D3GNyMVqc5qm2xaH0z5/LdAJFRR53Z/iyOBBpYx+mzkNXHzK196mR/B9HH0U3xBCJlmd6QmIrnxYn/gDRkrLNN0IF/WXF4aTvkgQs7iVe370/AmgSiO88Ae3AV8wr4hfu/+hpH345tdzXQ1G3o+fxHR092vV+KjfJzhXqskPvjvYekipr+rkzy4detCyhN34khZQaJlk4TR+swhJRIRUJzPjex4Wm2VzbLdYFZv5CIIvviTn0VP2o02kE3NTcb7HQHtJlE1VMI3GBF01lP8UGxki1JXtlams+Okh56AoHvTfolOCuEiupaOzrna1/1U5UuuHOFZvreq2J0lut8S1DDGjNSkujDj1eTwFoSIXlINA1jv4zci9o+joJVk9H3HkEtGg=
+  app: warm-harbor-74934
+  on:
+    repo: mikeramz86/inprogress
