@@ -1,0 +1,32 @@
+{
+  "name": "inprogress",
+  "version": "1.0.0",
+  "description": "job tracker",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeramz86/inprogress.git"
+  },
+  "keywords": [
+    "job",
+    "tracker"
+  ],
+  "author": "Michael Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeramz86/inprogress/issues"
+  },
+  "homepage": "https://github.com/mikeramz86/inprogress#readme"
+}
